@@ -1,0 +1,36 @@
+ul,
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff66a2;
+    font-size: 18px;
+    padding: 1%;
+}
+
+ul {
+    border: 2px solid #fdf2f8;
+    border-radius: 12px;
+    width: 30%;
+    margin-right: 2%;
+    line-height: 34px;
+}
+
+li:hover {
+    color: #fb397e;
+}
+
+li.active {
+    color: #c60f7d;
+}
+
+@media only screen and (max-width: 960px) {
+    ul,
+    li {
+        
+        display: flex;
+        justify-content: center;
+    }
+}
